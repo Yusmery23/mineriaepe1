@@ -1,0 +1,9 @@
+requests
+python-dotenv
+pandas
+xlrd>=2.0.1
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+jupyterlab

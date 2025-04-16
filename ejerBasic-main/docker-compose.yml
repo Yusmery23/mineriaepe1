@@ -1,0 +1,10 @@
+services:
+  main-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: adult-income-container-v2  # Cambié el nombre aquí
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
